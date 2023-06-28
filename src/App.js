@@ -1,13 +1,16 @@
-import './App.css';
+import React from 'react'
+import styles from './style'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        Zoompay
-      </header>
+    <div className='bg-primary w-full overflow-hidden'>
+       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          Navbar
+        </div>
+       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
